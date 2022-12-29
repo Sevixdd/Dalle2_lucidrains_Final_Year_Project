@@ -1,0 +1,25 @@
+2022-12-23 16:51:54,020 INFO    MainThread:19868 [wandb_setup.py:_flush():76] Configure stats pid to 19868
+2022-12-23 16:51:54,020 INFO    MainThread:19868 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Sevi\.config\wandb\settings
+2022-12-23 16:51:54,020 INFO    MainThread:19868 [wandb_setup.py:_flush():76] Loading settings from F:\FYP\wandb\settings
+2022-12-23 16:51:54,021 INFO    MainThread:19868 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-12-23 16:51:54,021 INFO    MainThread:19868 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'downloader.py', 'program': 'F:\\FYP\\downloader.py'}
+2022-12-23 16:51:54,021 INFO    MainThread:19868 [wandb_setup.py:_flush():76] Applying login settings: {'anonymous': 'allow'}
+2022-12-23 16:51:54,030 INFO    MainThread:19868 [wandb_init.py:_log_setup():461] Logging user logs to F:\FYP\wandb\run-20221223_165154-cpkxc19b\logs\debug.log
+2022-12-23 16:51:54,030 INFO    MainThread:19868 [wandb_init.py:_log_setup():462] Logging internal logs to F:\FYP\wandb\run-20221223_165154-cpkxc19b\logs\debug-internal.log
+2022-12-23 16:51:54,030 INFO    MainThread:19868 [wandb_init.py:init():495] calling init triggers
+2022-12-23 16:51:54,030 INFO    MainThread:19868 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'url_list': 'mscoco.parquet', 'image_size': 256, 'output_folder': 'F:\\datasets', 'processes_count': 16, 'resize_mode': 'border', 'resize_only_if_bigger': False, 'upscale_interpolation': 'lanczos', 'downscale_interpolation': 'area', 'encode_quality': 95, 'encode_format': 'jpg', 'skip_reencode': False, 'output_format': 'webdataset', 'input_format': 'parquet', 'url_col': 'URL', 'caption_col': 'TEXT', 'bbox_col': None, 'thread_count': 64, 'number_sample_per_shard': 10000, 'extract_exif': True, 'save_additional_columns': None, 'timeout': 10, 'enable_wandb': True, 'wandb_project': 'img2dataset', 'oom_shard_count': 5, 'compute_hash': 'sha256', 'distributor': 'multiprocessing', 'downloader': 'normal', 'subjob_size': 1000, 'retries': 0, 'disable_all_reencoding': False, 'min_image_size': 0, 'max_image_area': inf, 'max_aspect_ratio': inf, 'incremental_mode': 'incremental', 'max_shard_retry': 1, 'user_agent_token': None, 'disallowed_header_directives': ['noai', 'noimageai', 'noindex', 'noimageindex']}
+2022-12-23 16:51:54,031 INFO    MainThread:19868 [wandb_init.py:init():548] starting backend
+2022-12-23 16:51:54,031 INFO    MainThread:19868 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-12-23 16:51:54,032 INFO    MainThread:19868 [backend.py:ensure_launched():217] starting backend process...
+2022-12-23 16:51:54,087 INFO    MainThread:19868 [backend.py:ensure_launched():222] started backend process with pid: 23820
+2022-12-23 16:51:54,087 INFO    MainThread:19868 [wandb_init.py:init():558] backend started and connected
+2022-12-23 16:51:54,099 INFO    MainThread:19868 [wandb_init.py:init():634] updated telemetry
+2022-12-23 16:51:54,100 INFO    MainThread:19868 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-12-23 16:52:24,114 INFO    MainThread:19868 [interface_shared.py:_communicate_run():326] couldn't get run from backend
+2022-12-23 16:52:24,114 ERROR   MainThread:19868 [wandb_init.py:init():674] backend process timed out
+2022-12-23 16:52:24,114 ERROR   MainThread:19868 [wandb_init.py:init():685] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-12-23 16:53:13,984 INFO    MainThread:19868 [wandb_init.py:teardown():302] tearing down wandb.init

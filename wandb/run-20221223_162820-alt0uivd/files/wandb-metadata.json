@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2022-12-23T16:28:21.088887",
+    "startedAt": "2022-12-23T16:28:20.485003",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "F:\\FYP\\downloader.py",
+    "codePath": "downloader.py",
+    "host": "DESKTOP-7GHF50V",
+    "username": "Sevi",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\FYP\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3701.0,
+        "min": 0.0,
+        "max": 3701.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3701.0,
+            "min": 0.0,
+            "max": 3701.0
+        }
+    ],
+    "disk": {
+        "total": 931.4951133728027,
+        "used": 540.4474754333496
+    },
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.906417846679688
+    }
+}

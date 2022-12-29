@@ -1,0 +1,1 @@
+clip-retrieval inference --input_dataset F:\datasets --output_folder embeddings_folder
