@@ -6,6 +6,8 @@ tar_path = os.path.abspath("F:/datasets/00000.tar")
 output_fold = os.path.abspath("F:/FYP/embeddings_folder")
 
 
+
+
 def clip():
     if os.path.exists(output_fold):
         shutil.rmtree(output_fold)
@@ -13,8 +15,10 @@ def clip():
         clip_model="ViT-L/14",
         input_dataset=tar_path,
         output_folder=output_fold,
+        output_partition_count=1,
         input_format="webdataset",
         enable_wandb=False,
+        enable_metadata=False,
     )
 
 
