@@ -12,12 +12,12 @@ def clip():
     if os.path.exists(output_fold):
         shutil.rmtree(output_fold)
     clip_inference(
+
         clip_model="ViT-L/14",
         input_dataset=tar_path,
         output_folder=output_fold,
         output_partition_count=1,
         input_format="webdataset",
-        enable_wandb=False,
         enable_metadata=False,
     )
 
