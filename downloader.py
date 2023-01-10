@@ -2,18 +2,18 @@ from img2dataset import download
 import shutil
 import os
 
-output_dir = os.path.abspath("example_folder")
+output_tar = os.path.abspath("media/sevi/New Volume/FYP/datasets/dataset")
 
 def main():
-  if os.path.exists(output_dir):
-      shutil.rmtree(output_dir)
+  if os.path.exists(output_tar):
+      shutil.rmtree(output_tar)
   #mscoco.parquet
   download(
     processes_count=4,
     thread_count=64,
-    url_list="mylist.txt",
+    url_list="mscoco",
     image_size=256,
-    output_folder=output_dir,
+    output_folder=output_tar ,
     output_format="webdataset",
     input_format="json",
     url_col="image_urls",
