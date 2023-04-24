@@ -1,0 +1,19 @@
+Logging to wandb run sevixdd/prior_debugging/3q7rrimz-vivid-resonance-26
+Saving checkpoint locally
+[34m[5mGrabbing data...
+[33mBeginning Prior Training : Distributed=False
+{'tracking/epoch': 0}
+{'tracking/samples-sec': tensor(54.2953, device='cuda:0'), 'tracking/samples-seen': tensor(32, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(1.3586, device='cuda:0')}
+{'tracking/samples-sec': tensor(142.8610, device='cuda:0'), 'tracking/samples-seen': tensor(64, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(1.3085, device='cuda:0')}
+{'tracking/samples-sec': tensor(136.8345, device='cuda:0'), 'tracking/samples-seen': tensor(96, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(1.2334, device='cuda:0')}
+{'tracking/samples-sec': tensor(150.9010, device='cuda:0'), 'tracking/samples-seen': tensor(128, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(1.1479, device='cuda:0')}
+100% 1/1 [00:00<00:00, 18001.30it/s]
+{'tracking/samples-sec': tensor(149.7471, device='cuda:0'), 'tracking/samples-seen': tensor(160, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(1.0645, device='cuda:0')}
+{'tracking/samples-sec': tensor(149.4931, device='cuda:0'), 'tracking/samples-seen': tensor(192, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.9649, device='cuda:0')}
+{'tracking/samples-sec': tensor(141.4060, device='cuda:0'), 'tracking/samples-seen': tensor(224, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.8909, device='cuda:0')}
+{'tracking/samples-sec': tensor(140.1664, device='cuda:0'), 'tracking/samples-seen': tensor(256, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.8179, device='cuda:0')}
+{'tracking/samples-sec': tensor(148.3449, device='cuda:0'), 'tracking/samples-seen': tensor(288, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.9059, device='cuda:0')}
+{'tracking/samples-sec': tensor(148.5056, device='cuda:0'), 'tracking/samples-seen': tensor(320, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.8367, device='cuda:0')}
+{'tracking/samples-sec': tensor(146.3323, device='cuda:0'), 'tracking/samples-seen': tensor(352, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.7955, device='cuda:0')}
+{'tracking/samples-sec': tensor(146.3044, device='cuda:0'), 'tracking/samples-seen': tensor(384, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.7348, device='cuda:0')}
+{'tracking/samples-sec': tensor(148.9425, device='cuda:0'), 'tracking/samples-seen': tensor(416, device='cuda:0'), 'tracking/ema-decay': 0.0, 'tracking/training-l2': tensor(0.7279, device='cuda:0')}

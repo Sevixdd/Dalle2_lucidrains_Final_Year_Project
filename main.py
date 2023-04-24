@@ -76,5 +76,6 @@ images = dalle2(
     ['a butterfly trying to escape a tornado'],
     cond_scale = 2. # classifier free guidance strength (> 1 would strengthen the condition)
 )
-
+for img in images:
+    img.save("out.jpg")
 # save your image (in this example, of size 256x256)

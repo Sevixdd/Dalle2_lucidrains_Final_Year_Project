@@ -1,0 +1,184 @@
+wandb_version: 1
+
+Distributed:
+  desc: null
+  value: false
+DistributedType:
+  desc: null
+  value: DistributedType.NO
+MixedPrecision:
+  desc: null
+  value: 'no'
+NumProcesses:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: huggingface
+    huggingface_version: 4.27.4
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.16
+    start_time: 1681414903
+    t:
+      1:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 63
+      - 71
+      - 79
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 63
+      - 71
+      - 79
+      3:
+      - 16
+      4: 3.8.16
+      5: 0.12.21
+      6: 4.27.4
+      8:
+      - 5
+data:
+  desc: null
+  value:
+    batch_size: 9
+    end_shard: 591
+    img_embeddings_url: null
+    index_width: 3
+    num_workers: 2
+    preprocessing:
+      RandomResizedCrop:
+        ratio:
+        - 1.0
+        - 1.0
+        scale:
+        - 0.75
+        - 1.0
+        size:
+        - 224
+        - 224
+      ToTensor: true
+    resample_train: false
+    shard_width: 5
+    shuffle_train: true
+    splits:
+      test: 0.1
+      train: 0.75
+      val: 0.15
+    start_shard: 0
+    text_embeddings_url: null
+    webdataset_base_url: /home/sevi/datasets/dataset/{}.tar
+decoder:
+  desc: null
+  value:
+    beta_schedule:
+    - cosine
+    channels: 3
+    clip: null
+    image_cond_drop_prob: 0.1
+    image_size: null
+    image_sizes:
+    - 128
+    learned_variance: true
+    loss_type: l2
+    sample_timesteps: null
+    text_cond_drop_prob: 0.1
+    timesteps: 1000
+    unets:
+    - attn_dim_head: 64
+      attn_heads: 8
+      channels: 3
+      cond_dim: 128
+      cond_on_text_encodings: true
+      dim: 128
+      dim_mults:
+      - 1
+      - 2
+      - 3
+      - 4
+      image_embed_dim: 768
+      init_cross_embed: true
+      memory_efficient: true
+      num_resnet_blocks: 2
+      self_attn:
+      - 0
+      - 0
+      - 0
+      - 0
+      sparse_attn: true
+      text_embed_dim: 768
+evaluate:
+  desc: null
+  value:
+    FID:
+      feature: 64
+    IS:
+      feature: 64
+      splits: 10
+    KID:
+      feature: 64
+      subset_size: 2
+    LPIPS:
+      net_type: vgg
+      reduction: mean
+    n_evaluation_samples: 10
+seed:
+  desc: null
+  value: 0
+tracker:
+  desc: null
+  value:
+    data_path: .tracker_data
+    load:
+      file_path: latest.pth
+      load_from: null
+      only_auto_resume: true
+    log:
+      auto_resume: false
+      log_type: wandb
+      resume: false
+      verbose: true
+      wandb_entity: Sevixdd
+      wandb_project: decoder_train
+    overwrite_data_path: true
+    save:
+    - save_all: false
+      save_best: true
+      save_best_to: best_decoder.pth
+      save_latest: true
+      save_latest_to: latest.pth
+      save_to: local
+train:
+  desc: null
+  value:
+    amp: false
+    cond_scale:
+    - 3.5
+    - 1.0
+    device: cuda
+    ema_beta: 0.99
+    epoch_samples: 460000
+    epochs: 5
+    find_unused_parameters: true
+    lr: 0.00011
+    max_grad_norm: 0.5
+    n_sample_images: 10
+    save_every_n_samples: 110000
+    save_immediately: false
+    static_graph: true
+    unet_training_mask:
+    - true
+    use_ema: true
+    validation_samples: 20000
+    warmup_steps: null
+    wd: 0.01

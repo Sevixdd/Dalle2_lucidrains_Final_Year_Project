@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.19.0-40-generic-x86_64-with-glibc2.17",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-04-24T01:45:24.257788",
+    "startedAt": "2023-04-24T01:45:23.201194",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/sevi/Documents/GitHub/FYP/train_prior.py",
+    "codePath": "train_prior.py",
+    "git": {
+        "remote": "https://github.com/Sevixdd/FYP.git",
+        "commit": "ac087c99cedeaf6941c70866493222c6f1b46ef2"
+    },
+    "email": "sebi.momir@gmail.com",
+    "root": "/home/sevi/Documents/GitHub/FYP",
+    "host": "sevi-B550M-DS3H",
+    "username": "sevi",
+    "executable": "/home/sevi/anaconda3/envs/AdvAI/bin/python"
+}

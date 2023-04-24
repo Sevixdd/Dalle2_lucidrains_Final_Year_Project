@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 650, in <module>
+    main()
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 647, in main
+    initialize_training(config, config_path=config_file_path)
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 632, in initialize_training
+    train(dataloaders, decoder, accelerator,
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 380, in train
+    img_embed, img_encoding = clip.embed_image(img)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 375, in embed_image
+    image = self.validate_and_resize_image(image)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 209, in validate_and_resize_image
+    assert image_size >= self.image_size, f'you are passing in an image of size {image_size} but CLIP requires the image size to be at least {self.image_size}'
+AssertionError: you are passing in an image of size 128 but CLIP requires the image size to be at least 224
+Logging to wandb run sevixdd/decoder_train/15csakui-sparkling-shape-5
+Saving checkpoint locally
+======================================== Loaded Config ========================================
+Running training with 1 processes and NO distributed training
+Training using clip image embeddings generation and clip text encoding generation. conditioned on text
+Number of parameters: 280177542 total; 280177542 training
+Unet 0 has 280177542 total; 280177542 training
+======================================== Generating Example Data ========================================
+This can take a while to load the shard lists...
+Generated training examples
+Generated testing examples
+======================================== Starting epoch 0 ========================================

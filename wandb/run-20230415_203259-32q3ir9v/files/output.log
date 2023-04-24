@@ -1,0 +1,63 @@
+Logging to wandb run sevixdd/decoder_train/32q3ir9v-proud-cherry-9
+Saving checkpoint locally
+======================================== Loaded Config ========================================
+Running training with 1 processes and NO distributed training
+Training using clip image embeddings generation and clip text encoding generation. conditioned on text
+Number of parameters: 280177542 total; 280177542 training
+Unet 0 has 280177542 total; 280177542 training
+======================================== Generating Example Data ========================================
+This can take a while to load the shard lists...
+Generated training examples
+Generated testing examples
+======================================== Starting epoch 0 ========================================
+Traceback (most recent call last):
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 650, in <module>
+    main()
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 647, in main
+    initialize_training(config, config_path=config_file_path)
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 632, in initialize_training
+    train(dataloaders, decoder, accelerator,
+  File "/home/sevi/Documents/GitHub/FYP/train_decoder.py", line 392, in train
+    loss = trainer.forward(img, **forward_params, unet_number=unet, _device=inference_device)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/trainer.py", line 107, in inner
+    out = fn(model, *args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/trainer.py", line 723, in forward
+    loss_obj = self.decoder(*chunked_args, unet_number = unet_number, return_lowres_cond_image=return_lowres_cond_image, **chunked_kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 3267, in forward
+    losses = self.p_losses(unet, image, times, image_embed = image_embed, text_encodings = text_encodings, lowres_cond_img = lowres_cond_img, predict_x_start = predict_x_start, predict_v = predict_v, learned_variance = learned_variance, is_latent_diffusion = is_latent_diffusion, noise_scheduler = noise_scheduler, lowres_noise_level = lowres_noise_level)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 3048, in p_losses
+    unet_output = unet(
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 2348, in forward
+    x = attn(x)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 716, in forward
+    return self.fn(x, **kwargs) + x
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 1762, in forward
+    q, k, v = rearrange_many((q, k, v), 'b (h c) x y -> (b h) (x y) c', h = h)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/einops_exts/einops_exts.py", line 19, in <genexpr>
+    return (fn(tensor, pattern, **kwargs) for tensor in tensors)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/einops/einops.py", line 483, in rearrange
+    return reduce(cast(Tensor, tensor), pattern, reduction='rearrange', **axes_lengths)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/einops/einops.py", line 412, in reduce
+    return _apply_recipe(recipe, tensor, reduction_type=reduction)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/einops/einops.py", line 241, in _apply_recipe
+    return backend.reshape(tensor, final_shapes)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/einops/_backends.py", line 84, in reshape
+    return x.reshape(shape)
+RuntimeError: CUDA out of memory. Tried to allocate 48.00 MiB (GPU 0; 11.76 GiB total capacity; 9.41 GiB already allocated; 42.50 MiB free; 9.48 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+{'Epoch': 0, 'Sample': 6, 'Step': 0, 'Samples per second': 3.0497641221329643, 'Samples Seen': 6, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 1.0006717443466187}

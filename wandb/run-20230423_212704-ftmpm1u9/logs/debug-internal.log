@@ -1,0 +1,47 @@
+2023-04-23 21:27:04,556 INFO    MainThread:6683 [internal.py:wandb_internal():90] W&B internal server running at pid: 6683, started at: 2023-04-23 21:27:04.556422
+2023-04-23 21:27:04,557 INFO    WriterThread:6683 [datastore.py:open_for_write():75] open: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/run-ftmpm1u9.wandb
+2023-04-23 21:27:04,558 DEBUG   SenderThread:6683 [sender.py:send():236] send: header
+2023-04-23 21:27:04,558 DEBUG   SenderThread:6683 [sender.py:send():236] send: run
+2023-04-23 21:27:04,894 DEBUG   HandlerThread:6683 [handler.py:handle_request():140] handle_request: check_version
+2023-04-23 21:27:04,897 INFO    SenderThread:6683 [dir_watcher.py:__init__():216] watching files in: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files
+2023-04-23 21:27:04,897 INFO    SenderThread:6683 [sender.py:_start_run_threads():815] run started: ftmpm1u9 with start time 1682281624
+2023-04-23 21:27:04,897 DEBUG   SenderThread:6683 [sender.py:send():236] send: summary
+2023-04-23 21:27:04,897 INFO    SenderThread:6683 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-23 21:27:04,898 DEBUG   SenderThread:6683 [sender.py:send_request():250] send_request: check_version
+2023-04-23 21:27:05,061 DEBUG   HandlerThread:6683 [handler.py:handle_request():140] handle_request: run_start
+2023-04-23 21:27:05,065 DEBUG   HandlerThread:6683 [meta.py:__init__():35] meta init
+2023-04-23 21:27:05,065 DEBUG   HandlerThread:6683 [meta.py:__init__():49] meta init done
+2023-04-23 21:27:05,065 DEBUG   HandlerThread:6683 [meta.py:probe():209] probe
+2023-04-23 21:27:05,074 DEBUG   HandlerThread:6683 [meta.py:_setup_git():199] setup git
+2023-04-23 21:27:05,080 DEBUG   HandlerThread:6683 [meta.py:_setup_git():206] setup git done
+2023-04-23 21:27:05,080 DEBUG   HandlerThread:6683 [meta.py:_save_pip():53] save pip
+2023-04-23 21:27:05,081 DEBUG   HandlerThread:6683 [meta.py:_save_pip():67] save pip done
+2023-04-23 21:27:05,081 DEBUG   HandlerThread:6683 [meta.py:_save_conda():74] save conda
+2023-04-23 21:27:05,898 INFO    Thread-7  :6683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/wandb-summary.json
+2023-04-23 21:27:05,898 INFO    Thread-7  :6683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/conda-environment.yaml
+2023-04-23 21:27:05,898 INFO    Thread-7  :6683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/requirements.txt
+2023-04-23 21:27:08,052 WARNING MainThread:6683 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-23 21:27:08,509 DEBUG   HandlerThread:6683 [meta.py:_save_conda():84] save conda done
+2023-04-23 21:27:08,510 DEBUG   HandlerThread:6683 [meta.py:probe():247] probe done
+2023-04-23 21:27:08,546 DEBUG   SenderThread:6683 [sender.py:send():236] send: files
+2023-04-23 21:27:08,547 INFO    SenderThread:6683 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-23 21:27:08,900 INFO    Thread-7  :6683 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/wandb-metadata.json
+2023-04-23 21:27:09,102 INFO    Thread-11 :6683 [upload_job.py:push():138] Uploaded file /tmp/tmpiq3g6qgmwandb/217r0n14-wandb-metadata.json
+2023-04-23 21:27:14,058 WARNING MainThread:6683 [internal.py:is_dead():387] Internal process exiting, parent pid 6437 disappeared
+2023-04-23 21:27:14,058 ERROR   MainThread:6683 [internal.py:wandb_internal():149] Internal process shutdown.
+2023-04-23 21:27:14,547 INFO    WriterThread:6683 [datastore.py:close():279] close: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/run-ftmpm1u9.wandb
+2023-04-23 21:27:14,548 INFO    SenderThread:6683 [sender.py:finish():1114] shutting down sender
+2023-04-23 21:27:14,548 INFO    SenderThread:6683 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-04-23 21:27:14,552 INFO    HandlerThread:6683 [handler.py:finish():806] shutting down handler
+2023-04-23 21:27:14,901 INFO    SenderThread:6683 [dir_watcher.py:finish():383] scan: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files
+2023-04-23 21:27:14,901 INFO    SenderThread:6683 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/wandb-summary.json wandb-summary.json
+2023-04-23 21:27:14,901 INFO    SenderThread:6683 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/requirements.txt requirements.txt
+2023-04-23 21:27:14,904 INFO    SenderThread:6683 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/config.yaml config.yaml
+2023-04-23 21:27:14,905 INFO    SenderThread:6683 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/wandb-metadata.json wandb-metadata.json
+2023-04-23 21:27:14,905 INFO    SenderThread:6683 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/conda-environment.yaml conda-environment.yaml
+2023-04-23 21:27:14,907 INFO    SenderThread:6683 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-23 21:27:14,907 INFO    SenderThread:6683 [file_pusher.py:join():176] waiting for file pusher
+2023-04-23 21:27:20,405 INFO    Thread-14 :6683 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/config.yaml
+2023-04-23 21:27:20,463 INFO    Thread-12 :6683 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/wandb-summary.json
+2023-04-23 21:27:20,598 INFO    Thread-13 :6683 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_212704-ftmpm1u9/files/requirements.txt
+2023-04-23 21:27:21,353 INFO    MainThread:6683 [internal.py:handle_exit():80] Internal process exited

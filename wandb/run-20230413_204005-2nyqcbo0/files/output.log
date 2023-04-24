@@ -1,0 +1,31 @@
+Logging to wandb run sevixdd/decoder_train/2nyqcbo0-absurd-snowball-3
+Saving checkpoint locally
+======================================== Loaded Config ========================================
+Running training with 1 processes and NO distributed training
+Training using clip image embeddings generation and clip text encoding generation. conditioned on text
+Number of parameters: 108451334 total; 108451334 training
+Unet 0 has 108451334 total; 108451334 training
+======================================== Generating Example Data ========================================
+This can take a while to load the shard lists...
+Generated training examples
+Generated testing examples
+======================================== Starting epoch 0 ========================================
+{'Epoch': 0, 'Sample': 9, 'Step': 0, 'Samples per second': 5.129974951294183, 'Samples Seen': 9, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 1.0005228519439697}
+{'Epoch': 0, 'Sample': 99, 'Step': 10, 'Samples per second': 27.94627324893153, 'Samples Seen': 99, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.9869177937507629}
+{'Epoch': 0, 'Sample': 189, 'Step': 20, 'Samples per second': 27.917069844561425, 'Samples Seen': 189, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.930794358253479}
+{'Epoch': 0, 'Sample': 279, 'Step': 30, 'Samples per second': 27.787193760149105, 'Samples Seen': 279, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.849452018737793}
+{'Epoch': 0, 'Sample': 369, 'Step': 40, 'Samples per second': 27.77237222257782, 'Samples Seen': 369, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.7555316090583801}
+{'Epoch': 0, 'Sample': 459, 'Step': 50, 'Samples per second': 27.822830078260317, 'Samples Seen': 459, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.6260071992874146}
+{'Epoch': 0, 'Sample': 549, 'Step': 60, 'Samples per second': 27.695290249023845, 'Samples Seen': 549, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.5008836984634399}
+{'Epoch': 0, 'Sample': 639, 'Step': 70, 'Samples per second': 27.83066592350771, 'Samples Seen': 639, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.4054965376853943}
+{'Epoch': 0, 'Sample': 729, 'Step': 80, 'Samples per second': 27.81694584025096, 'Samples Seen': 729, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.3515625596046448}
+{'Epoch': 0, 'Sample': 819, 'Step': 90, 'Samples per second': 27.85777667572905, 'Samples Seen': 819, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.2934251129627228}
+{'Epoch': 0, 'Sample': 909, 'Step': 100, 'Samples per second': 27.555853387731503, 'Samples Seen': 909, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.2121555060148239}
+{'Epoch': 0, 'Sample': 999, 'Step': 110, 'Samples per second': 26.447153315252915, 'Samples Seen': 999, 'Unet 0 EMA Decay': 0.7978199917664258, 'Unet 0 Training Loss': 0.17946559190750122}
+{'Epoch': 0, 'Sample': 1089, 'Step': 120, 'Samples per second': 27.08000094693505, 'Samples Seen': 1089, 'Unet 0 EMA Decay': 0.8686226582675657, 'Unet 0 Training Loss': 0.16673527657985687}
+{'Epoch': 0, 'Sample': 1179, 'Step': 130, 'Samples per second': 27.30323006218835, 'Samples Seen': 1179, 'Unet 0 EMA Decay': 0.8986651402454389, 'Unet 0 Training Loss': 0.1103646531701088}
+{'Epoch': 0, 'Sample': 1269, 'Step': 140, 'Samples per second': 27.564143361711356, 'Samples Seen': 1269, 'Unet 0 EMA Decay': 0.9158971404784699, 'Unet 0 Training Loss': 0.10850874334573746}
+{'Epoch': 0, 'Sample': 1359, 'Step': 150, 'Samples per second': 27.251902643559166, 'Samples Seen': 1359, 'Unet 0 EMA Decay': 0.9272856907987022, 'Unet 0 Training Loss': 0.09031788259744644}
+{'Epoch': 0, 'Sample': 1449, 'Step': 160, 'Samples per second': 27.730548480866016, 'Samples Seen': 1449, 'Unet 0 EMA Decay': 0.935467259293407, 'Unet 0 Training Loss': 0.08739292621612549}
+Aborted!
+{'Epoch': 0, 'Sample': 1539, 'Step': 170, 'Samples per second': 27.181220927720734, 'Samples Seen': 1539, 'Unet 0 EMA Decay': 0.9416786232475655, 'Unet 0 Training Loss': 0.10147874057292938}

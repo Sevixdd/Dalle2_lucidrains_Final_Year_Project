@@ -1,0 +1,134 @@
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_setup.py:_flush():76] Configure stats pid to 22756
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_setup.py:_flush():76] Loading settings from /home/sevi/.config/wandb/settings
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_setup.py:_flush():76] Loading settings from /home/sevi/Documents/GitHub/FYP/wandb/settings
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'downloader.py', 'program': '/home/sevi/Documents/GitHub/FYP/downloader.py'}
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_setup.py:_flush():76] Applying login settings: {'anonymous': 'allow'}
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_init.py:_log_setup():461] Logging user logs to /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_003618-3bl2f37g/logs/debug.log
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_init.py:_log_setup():462] Logging internal logs to /home/sevi/Documents/GitHub/FYP/wandb/run-20230423_003618-3bl2f37g/logs/debug-internal.log
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_init.py:init():495] calling init triggers
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'url_list': '/home/sevi/datasets/Image_Labels_Subset_Train_GCC-Labels-training.tsv', 'image_size': 256, 'output_folder': '/home/sevi/datasets/cc3m', 'processes_count': 8, 'resize_mode': 'border', 'resize_only_if_bigger': False, 'upscale_interpolation': 'lanczos', 'downscale_interpolation': 'area', 'encode_quality': 95, 'encode_format': 'jpg', 'skip_reencode': False, 'output_format': 'webdataset', 'input_format': 'tsv', 'url_col': 'url', 'caption_col': 'caption', 'bbox_col': None, 'thread_count': 64, 'number_sample_per_shard': 1000, 'extract_exif': True, 'save_additional_columns': None, 'timeout': 10, 'enable_wandb': True, 'wandb_project': 'img2dataset', 'oom_shard_count': 5, 'compute_hash': 'sha256', 'verify_hash': None, 'distributor': 'multiprocessing', 'subjob_size': 1000, 'retries': 0, 'disable_all_reencoding': False, 'min_image_size': 0, 'max_image_area': inf, 'max_aspect_ratio': inf, 'incremental_mode': 'incremental', 'max_shard_retry': 1, 'user_agent_token': None, 'disallowed_header_directives': ['noai', 'noimageai', 'noindex', 'noimageindex']}
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [wandb_init.py:init():548] starting backend
+2023-04-23 00:36:18,520 INFO    MainThread:22756 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-23 00:36:18,521 INFO    MainThread:22756 [backend.py:ensure_launched():217] starting backend process...
+2023-04-23 00:36:18,525 INFO    MainThread:22756 [backend.py:ensure_launched():222] started backend process with pid: 23003
+2023-04-23 00:36:18,526 INFO    MainThread:22756 [wandb_init.py:init():558] backend started and connected
+2023-04-23 00:36:18,528 INFO    MainThread:22756 [wandb_init.py:init():634] updated telemetry
+2023-04-23 00:36:18,533 INFO    MainThread:22756 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2023-04-23 00:36:19,228 INFO    MainThread:22756 [wandb_run.py:_on_init():1919] communicating current version
+2023-04-23 00:36:19,309 INFO    MainThread:22756 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.15.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-23 00:36:19,310 INFO    MainThread:22756 [wandb_init.py:init():700] starting run threads in backend
+2023-04-23 00:36:22,723 INFO    MainThread:22756 [wandb_run.py:_console_start():1893] atexit reg
+2023-04-23 00:36:22,724 INFO    MainThread:22756 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.REDIRECT
+2023-04-23 00:36:22,724 INFO    MainThread:22756 [wandb_run.py:_redirect():1771] Redirecting console.
+2023-04-23 00:36:22,724 INFO    MainThread:22756 [wandb_run.py:_redirect():1827] Redirects installed.
+2023-04-23 00:36:22,724 INFO    MainThread:22756 [wandb_init.py:init():732] run started, returning control to user process
+2023-04-23 00:37:29,934 INFO    MainThread:22756 [wandb_run.py:_finish():1680] finishing run sevixdd/img2dataset/3bl2f37g
+2023-04-23 00:37:29,934 INFO    MainThread:22756 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2023-04-23 00:37:29,935 INFO    MainThread:22756 [wandb_run.py:_restore():1834] restore
+2023-04-23 00:37:32,298 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 776
+  total_bytes: 776
+}
+
+2023-04-23 00:37:32,597 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 776
+  total_bytes: 776
+}
+
+2023-04-23 00:37:33,251 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 776
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,352 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 776
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,453 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 776
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,553 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,654 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,755 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,856 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:33,957 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:34,536 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+
+2023-04-23 00:37:35,019 INFO    MainThread:22756 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 18155
+  total_bytes: 18155
+}
+local_info {
+}
+
+2023-04-23 00:37:36,121 INFO    MainThread:22756 [wandb_run.py:_footer_history_summary_info():3099] rendering history
+2023-04-23 00:37:36,121 INFO    MainThread:22756 [wandb_run.py:_footer_history_summary_info():3131] rendering summary
+2023-04-23 00:37:36,123 INFO    MainThread:22756 [wandb_run.py:_footer_sync_info():3055] logging synced files

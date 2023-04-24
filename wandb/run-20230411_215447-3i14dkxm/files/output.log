@@ -1,0 +1,41 @@
+Logging to wandb run sevixdd/prior_debugging/3i14dkxm-misunderstood-hill-18
+Saving checkpoint locally
+[34m[5mGrabbing data...
+Specified count is larger than what's available...defaulting to reader's count.
+[33mBeginning Prior Training : Distributed=False
+{'tracking/epoch': 0}
+100% 51/51 [00:00<00:00, 21522.24it/s]
+Traceback (most recent call last):
+  File "/home/sevi/Documents/GitHub/FYP/train_prior.py", line 771, in <module>
+    main()
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/sevi/Documents/GitHub/FYP/train_prior.py", line 767, in main
+    initialize_training(config_file, accelerator)
+  File "/home/sevi/Documents/GitHub/FYP/train_prior.py", line 750, in initialize_training
+    train(
+  File "/home/sevi/Documents/GitHub/FYP/train_prior.py", line 475, in train
+    loss = trainer(text=txt, image_embed=img)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/trainer.py", line 107, in inner
+    out = fn(model, *args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/trainer.py", line 405, in forward
+    loss = self.diffusion_prior(*chunked_args, **chunked_kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 1495, in forward
+    return self.p_losses(image_embed, times, text_cond = text_cond, *args, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 1380, in p_losses
+    pred = self.net(
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/sevi/anaconda3/envs/AdvAI/lib/python3.8/site-packages/dalle2_pytorch/dalle2_pytorch.py", line 1110, in forward
+    image_embed = torch.where(
+RuntimeError: The size of tensor a (768) must match the size of tensor b (512) at non-singleton dimension 2

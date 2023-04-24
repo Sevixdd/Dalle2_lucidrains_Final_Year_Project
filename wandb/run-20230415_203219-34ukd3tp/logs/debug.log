@@ -1,0 +1,137 @@
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_setup.py:_flush():76] Configure stats pid to 27672
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_setup.py:_flush():76] Loading settings from /home/sevi/.config/wandb/settings
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_setup.py:_flush():76] Loading settings from /home/sevi/Documents/GitHub/FYP/wandb/settings
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'silent': 'true'}
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_decoder.py', 'program': '/home/sevi/Documents/GitHub/FYP/train_decoder.py'}
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_init.py:_log_setup():461] Logging user logs to /home/sevi/Documents/GitHub/FYP/wandb/run-20230415_203219-34ukd3tp/logs/debug.log
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_init.py:_log_setup():462] Logging internal logs to /home/sevi/Documents/GitHub/FYP/wandb/run-20230415_203219-34ukd3tp/logs/debug-internal.log
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_init.py:init():495] calling init triggers
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {'decoder': {'unets': [{'dim': 128, 'dim_mults': [1, 2, 4, 8], 'image_embed_dim': 768, 'text_embed_dim': 768, 'cond_on_text_encodings': True, 'cond_dim': 128, 'channels': 3, 'self_attn': [0, 0, 0, 0], 'attn_dim_head': 64, 'attn_heads': 8, 'init_cross_embed': True, 'num_resnet_blocks': 2, 'memory_efficient': True, 'sparse_attn': True}], 'image_size': None, 'image_sizes': [128], 'clip': None, 'channels': 3, 'timesteps': 1000, 'sample_timesteps': None, 'loss_type': 'l2', 'beta_schedule': ['cosine'], 'learned_variance': True, 'image_cond_drop_prob': 0.1, 'text_cond_drop_prob': 0.1}, 'data': {'webdataset_base_url': '/home/sevi/datasets/dataset/{}.tar', 'img_embeddings_url': None, 'text_embeddings_url': None, 'num_workers': 2, 'batch_size': 8, 'start_shard': 0, 'end_shard': 591, 'shard_width': 5, 'index_width': 3, 'splits': {'train': 0.75, 'val': 0.15, 'test': 0.1}, 'shuffle_train': True, 'resample_train': False, 'preprocessing': {'RandomResizedCrop': {'size': [224, 224], 'scale': [0.75, 1.0], 'ratio': [1.0, 1.0]}, 'ToTensor': True}}, 'train': {'epochs': 5, 'lr': 0.00011, 'wd': 0.01, 'warmup_steps': None, 'find_unused_parameters': True, 'static_graph': True, 'max_grad_norm': 0.5, 'save_every_n_samples': 110000, 'n_sample_images': 10, 'cond_scale': [3.5, 1.0], 'device': 'cuda', 'epoch_samples': 460000, 'validation_samples': 20000, 'save_immediately': False, 'use_ema': True, 'ema_beta': 0.99, 'amp': False, 'unet_training_mask': [True]}, 'evaluate': {'n_evaluation_samples': 10, 'FID': {'feature': 64}, 'IS': {'feature': 64, 'splits': 10}, 'KID': {'feature': 64, 'subset_size': 2}, 'LPIPS': {'net_type': 'vgg', 'reduction': 'mean'}}, 'tracker': {'data_path': '.tracker_data', 'overwrite_data_path': True, 'log': {'log_type': 'wandb', 'resume': False, 'auto_resume': False, 'verbose': True, 'wandb_project': 'decoder_train', 'wandb_entity': 'Sevixdd'}, 'load': {'load_from': None, 'only_auto_resume': True, 'file_path': 'latest.pth'}, 'save': [{'save_to': 'local', 'save_all': False, 'save_latest': True, 'save_best': True, 'save_latest_to': 'latest.pth', 'save_best_to': 'best_decoder.pth'}]}, 'seed': 0, 'Distributed': False, 'DistributedType': <DistributedType.NO: 'NO'>, 'NumProcesses': 1, 'MixedPrecision': 'no'}
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [wandb_init.py:init():548] starting backend
+2023-04-15 20:32:19,047 INFO    MainThread:27672 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-04-15 20:32:19,080 INFO    MainThread:27672 [backend.py:ensure_launched():217] starting backend process...
+2023-04-15 20:32:19,109 INFO    MainThread:27672 [backend.py:ensure_launched():222] started backend process with pid: 27702
+2023-04-15 20:32:19,110 INFO    MainThread:27672 [wandb_init.py:init():558] backend started and connected
+2023-04-15 20:32:19,116 INFO    MainThread:27672 [wandb_init.py:init():634] updated telemetry
+2023-04-15 20:32:19,175 INFO    MainThread:27672 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2023-04-15 20:32:19,793 INFO    MainThread:27672 [wandb_run.py:_on_init():1919] communicating current version
+2023-04-15 20:32:19,864 INFO    MainThread:27672 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.14.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-04-15 20:32:19,864 INFO    MainThread:27672 [wandb_init.py:init():700] starting run threads in backend
+2023-04-15 20:32:23,374 INFO    MainThread:27672 [wandb_run.py:_console_start():1893] atexit reg
+2023-04-15 20:32:23,375 INFO    MainThread:27672 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.REDIRECT
+2023-04-15 20:32:23,375 INFO    MainThread:27672 [wandb_run.py:_redirect():1771] Redirecting console.
+2023-04-15 20:32:23,375 INFO    MainThread:27672 [wandb_run.py:_redirect():1827] Redirects installed.
+2023-04-15 20:32:23,376 INFO    MainThread:27672 [wandb_init.py:init():732] run started, returning control to user process
+2023-04-15 20:32:26,056 INFO    MainThread:27672 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 1
+2023-04-15 20:32:26,057 INFO    MainThread:27672 [wandb_run.py:_restore():1834] restore
+2023-04-15 20:32:28,399 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 782
+  total_bytes: 782
+}
+
+2023-04-15 20:32:28,683 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 782
+  total_bytes: 782
+}
+
+2023-04-15 20:32:28,805 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 782
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:28,905 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 782
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,008 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 782
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,109 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,210 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,311 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,412 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,513 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,614 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:29,863 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+
+2023-04-15 20:32:30,329 INFO    MainThread:27672 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 24660
+  total_bytes: 24660
+}
+local_info {
+}
+

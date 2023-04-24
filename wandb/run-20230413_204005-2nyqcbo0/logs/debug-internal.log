@@ -1,0 +1,277 @@
+2023-04-13 20:40:06,508 INFO    MainThread:11942 [internal.py:wandb_internal():90] W&B internal server running at pid: 11942, started at: 2023-04-13 20:40:06.508315
+2023-04-13 20:40:06,509 INFO    WriterThread:11942 [datastore.py:open_for_write():75] open: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/run-2nyqcbo0.wandb
+2023-04-13 20:40:06,510 DEBUG   SenderThread:11942 [sender.py:send():236] send: header
+2023-04-13 20:40:06,510 DEBUG   SenderThread:11942 [sender.py:send():236] send: run
+2023-04-13 20:40:06,787 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: check_version
+2023-04-13 20:40:06,788 INFO    SenderThread:11942 [dir_watcher.py:__init__():216] watching files in: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files
+2023-04-13 20:40:06,788 INFO    SenderThread:11942 [sender.py:_start_run_threads():815] run started: 2nyqcbo0 with start time 1681414806
+2023-04-13 20:40:06,788 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:06,788 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:06,788 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: check_version
+2023-04-13 20:40:06,868 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: run_start
+2023-04-13 20:40:06,874 DEBUG   HandlerThread:11942 [meta.py:__init__():35] meta init
+2023-04-13 20:40:06,874 DEBUG   HandlerThread:11942 [meta.py:__init__():49] meta init done
+2023-04-13 20:40:06,874 DEBUG   HandlerThread:11942 [meta.py:probe():209] probe
+2023-04-13 20:40:06,883 DEBUG   HandlerThread:11942 [meta.py:_setup_git():199] setup git
+2023-04-13 20:40:06,890 DEBUG   HandlerThread:11942 [meta.py:_setup_git():206] setup git done
+2023-04-13 20:40:06,890 DEBUG   HandlerThread:11942 [meta.py:_save_pip():53] save pip
+2023-04-13 20:40:06,890 DEBUG   HandlerThread:11942 [meta.py:_save_pip():67] save pip done
+2023-04-13 20:40:06,891 DEBUG   HandlerThread:11942 [meta.py:_save_conda():74] save conda
+2023-04-13 20:40:07,789 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/conda-environment.yaml
+2023-04-13 20:40:07,789 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:07,790 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/requirements.txt
+2023-04-13 20:40:10,289 DEBUG   HandlerThread:11942 [meta.py:_save_conda():84] save conda done
+2023-04-13 20:40:10,290 DEBUG   HandlerThread:11942 [meta.py:probe():247] probe done
+2023-04-13 20:40:10,324 DEBUG   SenderThread:11942 [sender.py:send():236] send: files
+2023-04-13 20:40:10,324 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-13 20:40:10,324 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-13 20:40:10,324 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: stop_status
+2023-04-13 20:40:10,530 DEBUG   SenderThread:11942 [sender.py:send():236] send: telemetry
+2023-04-13 20:40:10,790 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/conda-environment.yaml
+2023-04-13 20:40:10,791 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:10,791 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_created():269] file/dir created: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-metadata.json
+2023-04-13 20:40:11,039 INFO    Thread-11 :11942 [upload_job.py:push():138] Uploaded file /tmp/tmpjkaxnxwfwandb/fie6czwp-wandb-metadata.json
+2023-04-13 20:40:12,704 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:12,791 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:14,791 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:15,925 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:15,926 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:15,926 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:15,926 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:16,792 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:18,792 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:19,121 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:19,121 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:19,122 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:19,122 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:19,792 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:20,793 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:22,299 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:22,299 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:22,299 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:22,300 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:22,793 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:24,793 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:25,531 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-13 20:40:25,531 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: stop_status
+2023-04-13 20:40:25,532 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:25,733 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:25,733 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:25,733 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:25,794 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:26,794 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:29,059 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:29,059 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:29,059 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:29,061 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:29,795 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:30,795 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:32,448 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:32,449 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:32,449 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:32,449 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:32,795 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:34,796 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:35,038 DEBUG   SenderThread:11942 [sender.py:send():236] send: stats
+2023-04-13 20:40:35,708 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:35,708 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:35,708 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:35,709 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:35,796 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:36,796 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:37,796 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/config.yaml
+2023-04-13 20:40:38,923 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:38,923 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:38,923 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:38,925 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:39,797 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:40,733 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-13 20:40:40,734 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: stop_status
+2023-04-13 20:40:40,797 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:42,227 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:42,227 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:42,227 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:42,228 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:42,798 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:44,799 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:45,423 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:45,423 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:45,423 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:45,424 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:45,799 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:46,799 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:48,750 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:48,751 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:48,751 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:48,752 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:48,800 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:50,800 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:52,104 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:52,104 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:52,105 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:52,106 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:52,800 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:54,801 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:55,421 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:55,421 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:55,421 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:55,422 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:55,801 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:40:55,914 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-13 20:40:55,914 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: stop_status
+2023-04-13 20:40:56,802 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:40:58,685 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:40:58,685 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:40:58,685 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:40:58,686 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:40:58,802 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:41:00,802 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:41:01,918 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:41:01,919 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:41:01,919 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:41:01,920 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:41:02,803 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:41:04,803 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:41:05,143 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:41:05,143 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:41:05,143 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:41:05,143 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:41:05,200 DEBUG   SenderThread:11942 [sender.py:send():236] send: stats
+2023-04-13 20:41:05,803 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:41:06,804 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:41:08,364 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-13 20:41:08,365 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:41:08,365 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:41:08,365 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:41:08,804 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:41:09,066 WARNING MainThread:11942 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-13 20:41:09,134 DEBUG   SenderThread:11942 [sender.py:send():236] send: telemetry
+2023-04-13 20:41:10,805 INFO    Thread-7  :11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:41:11,906 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:11,906 DEBUG   SenderThread:11942 [sender.py:send():236] send: exit
+2023-04-13 20:41:11,906 INFO    SenderThread:11942 [sender.py:send_exit():372] handling exit code: 1
+2023-04-13 20:41:11,906 INFO    SenderThread:11942 [sender.py:send_exit():374] handling runtime: 65
+2023-04-13 20:41:11,907 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:41:11,907 INFO    SenderThread:11942 [sender.py:send_exit():380] send defer
+2023-04-13 20:41:11,907 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:11,907 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:11,907 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 0
+2023-04-13 20:41:11,908 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:11,908 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-04-13 20:41:11,908 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 1
+2023-04-13 20:41:11,908 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:11,908 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 1
+2023-04-13 20:41:11,941 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:11,942 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-04-13 20:41:11,942 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 2
+2023-04-13 20:41:11,942 DEBUG   SenderThread:11942 [sender.py:send():236] send: stats
+2023-04-13 20:41:11,942 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:11,942 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 2
+2023-04-13 20:41:11,943 DEBUG   SenderThread:11942 [sender.py:send():236] send: history
+2023-04-13 20:41:11,943 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:41:11,943 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:41:11,943 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:11,943 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-04-13 20:41:11,943 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 3
+2023-04-13 20:41:11,944 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:11,944 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 3
+2023-04-13 20:41:11,944 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:11,944 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-04-13 20:41:11,944 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 4
+2023-04-13 20:41:11,944 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:11,944 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 4
+2023-04-13 20:41:11,944 DEBUG   SenderThread:11942 [sender.py:send():236] send: summary
+2023-04-13 20:41:11,945 INFO    SenderThread:11942 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-13 20:41:11,945 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:11,945 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-04-13 20:41:11,945 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 5
+2023-04-13 20:41:11,945 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:11,945 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 5
+2023-04-13 20:41:11,945 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:11,945 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-04-13 20:41:12,008 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:12,209 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 6
+2023-04-13 20:41:12,209 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:12,209 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:12,209 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 6
+2023-04-13 20:41:12,209 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:12,209 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-04-13 20:41:12,209 INFO    SenderThread:11942 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-04-13 20:41:12,310 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:12,805 INFO    SenderThread:11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/config.yaml
+2023-04-13 20:41:12,805 INFO    SenderThread:11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:41:12,806 INFO    SenderThread:11942 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:41:12,806 INFO    SenderThread:11942 [dir_watcher.py:finish():383] scan: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files
+2023-04-13 20:41:12,806 INFO    SenderThread:11942 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json wandb-summary.json
+2023-04-13 20:41:12,806 INFO    SenderThread:11942 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/requirements.txt requirements.txt
+2023-04-13 20:41:12,806 INFO    SenderThread:11942 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/config.yaml config.yaml
+2023-04-13 20:41:12,809 INFO    SenderThread:11942 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-metadata.json wandb-metadata.json
+2023-04-13 20:41:12,810 INFO    SenderThread:11942 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/conda-environment.yaml conda-environment.yaml
+2023-04-13 20:41:12,812 INFO    SenderThread:11942 [dir_watcher.py:finish():397] scan save: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log output.log
+2023-04-13 20:41:12,814 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 7
+2023-04-13 20:41:12,814 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:12,814 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:12,814 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 7
+2023-04-13 20:41:12,816 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:12,816 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-04-13 20:41:12,816 INFO    SenderThread:11942 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-13 20:41:12,915 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:12,915 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,016 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,016 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,117 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,117 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,219 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,219 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,319 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,320 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,407 INFO    Thread-15 :11942 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/conda-environment.yaml
+2023-04-13 20:41:13,408 INFO    Thread-12 :11942 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/wandb-summary.json
+2023-04-13 20:41:13,421 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,421 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,441 INFO    Thread-13 :11942 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/requirements.txt
+2023-04-13 20:41:13,522 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,522 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,623 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,623 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,706 INFO    Thread-16 :11942 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/output.log
+2023-04-13 20:41:13,724 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,724 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,824 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,825 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:13,860 INFO    Thread-14 :11942 [upload_job.py:push():138] Uploaded file /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/files/config.yaml
+2023-04-13 20:41:13,925 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:13,925 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:14,026 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:14,027 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:14,060 INFO    Thread-6  :11942 [sender.py:transition_state():393] send defer: 8
+2023-04-13 20:41:14,060 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:14,060 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 8
+2023-04-13 20:41:14,060 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:14,060 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 8
+2023-04-13 20:41:14,127 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:14,580 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 9
+2023-04-13 20:41:14,580 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:14,581 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:14,581 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 9
+2023-04-13 20:41:14,581 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:14,581 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 9
+2023-04-13 20:41:14,581 INFO    SenderThread:11942 [sender.py:transition_state():393] send defer: 10
+2023-04-13 20:41:14,581 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: defer
+2023-04-13 20:41:14,581 DEBUG   SenderThread:11942 [sender.py:send():236] send: final
+2023-04-13 20:41:14,581 INFO    HandlerThread:11942 [handler.py:handle_request_defer():163] handle defer: 10
+2023-04-13 20:41:14,581 DEBUG   SenderThread:11942 [sender.py:send():236] send: footer
+2023-04-13 20:41:14,581 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: defer
+2023-04-13 20:41:14,581 INFO    SenderThread:11942 [sender.py:send_request_defer():389] handle sender defer: 10
+2023-04-13 20:41:14,682 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-13 20:41:14,682 DEBUG   SenderThread:11942 [sender.py:send_request():250] send_request: poll_exit
+2023-04-13 20:41:14,682 INFO    SenderThread:11942 [file_pusher.py:join():176] waiting for file pusher
+2023-04-13 20:41:15,158 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: sampled_history
+2023-04-13 20:41:15,159 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: get_summary
+2023-04-13 20:41:15,160 DEBUG   HandlerThread:11942 [handler.py:handle_request():140] handle_request: shutdown
+2023-04-13 20:41:15,160 INFO    HandlerThread:11942 [handler.py:finish():806] shutting down handler
+2023-04-13 20:41:15,581 INFO    WriterThread:11942 [datastore.py:close():279] close: /home/sevi/Documents/GitHub/FYP/wandb/run-20230413_204005-2nyqcbo0/run-2nyqcbo0.wandb
+2023-04-13 20:41:16,057 INFO    SenderThread:11942 [sender.py:finish():1114] shutting down sender
+2023-04-13 20:41:16,058 INFO    SenderThread:11942 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-13 20:41:16,058 INFO    SenderThread:11942 [file_pusher.py:join():176] waiting for file pusher
+2023-04-13 20:41:16,074 INFO    MainThread:11942 [internal.py:handle_exit():80] Internal process exited
