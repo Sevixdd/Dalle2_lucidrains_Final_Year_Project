@@ -1,0 +1,1 @@
+{"Epoch": 0, "Sample": 324, "Step": 80, "Samples per second": 17.935604983461868, "Samples Seen": 324, "Unet 0 EMA Decay": 0.0, "Unet 0 Training Loss": 0.40301722288131714, "_timestamp": 1682341812, "_runtime": 24, "_step": 81, "_wandb": {"runtime": 27}}

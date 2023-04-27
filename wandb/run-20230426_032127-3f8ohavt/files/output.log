@@ -1,0 +1,99 @@
+Logging to wandb run sevixdd/decoder_train/3f8ohavt-smart-bird-14
+Saving checkpoint locally
+======================================== Loaded Config ========================================
+Running training with 1 processes and NO distributed training
+Training using clip image embeddings generation and clip text encoding generation. conditioned on text
+Number of parameters: 108451334 total; 108451334 training
+Unet 0 has 108451334 total; 108451334 training
+======================================== Generating Example Data ========================================
+This can take a while to load the shard lists...
+Generated training examples
+Generated testing examples
+======================================== Starting epoch 0 ========================================
+{'Epoch': 0, 'Sample': 4, 'Step': 0, 'Samples per second': 2.0321250155644455, 'Samples Seen': 4, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 1.0002232789993286}
+{'Epoch': 0, 'Sample': 44, 'Step': 10, 'Samples per second': 22.071015211531453, 'Samples Seen': 44, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 1.02268648147583}
+{'Epoch': 0, 'Sample': 84, 'Step': 20, 'Samples per second': 22.204185349687926, 'Samples Seen': 84, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.9360650181770325}
+{'Epoch': 0, 'Sample': 124, 'Step': 30, 'Samples per second': 22.121623189628803, 'Samples Seen': 124, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.862625002861023}
+{'Epoch': 0, 'Sample': 164, 'Step': 40, 'Samples per second': 22.25272037562671, 'Samples Seen': 164, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.777420699596405}
+{'Epoch': 0, 'Sample': 204, 'Step': 50, 'Samples per second': 22.226070552326043, 'Samples Seen': 204, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.6462894082069397}
+{'Epoch': 0, 'Sample': 244, 'Step': 60, 'Samples per second': 22.242188421802023, 'Samples Seen': 244, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.5927559733390808}
+{'Epoch': 0, 'Sample': 284, 'Step': 70, 'Samples per second': 22.093336792300025, 'Samples Seen': 284, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.4361109733581543}
+{'Epoch': 0, 'Sample': 324, 'Step': 80, 'Samples per second': 22.198838270902524, 'Samples Seen': 324, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.38724350929260254}
+{'Epoch': 0, 'Sample': 364, 'Step': 90, 'Samples per second': 21.99979019365126, 'Samples Seen': 364, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.3055899441242218}
+{'Epoch': 0, 'Sample': 404, 'Step': 100, 'Samples per second': 21.818911994589886, 'Samples Seen': 404, 'Unet 0 EMA Decay': 0.0, 'Unet 0 Training Loss': 0.2531723380088806}
+{'Epoch': 0, 'Sample': 444, 'Step': 110, 'Samples per second': 21.460113125586798, 'Samples Seen': 444, 'Unet 0 EMA Decay': 0.7978199917664258, 'Unet 0 Training Loss': 0.20972304046154022}
+{'Epoch': 0, 'Sample': 484, 'Step': 120, 'Samples per second': 22.252867952807602, 'Samples Seen': 484, 'Unet 0 EMA Decay': 0.8686226582675657, 'Unet 0 Training Loss': 0.1444287747144699}
+{'Epoch': 0, 'Sample': 524, 'Step': 130, 'Samples per second': 22.03625683985993, 'Samples Seen': 524, 'Unet 0 EMA Decay': 0.8986651402454389, 'Unet 0 Training Loss': 0.13120758533477783}
+{'Epoch': 0, 'Sample': 564, 'Step': 140, 'Samples per second': 22.15106416688672, 'Samples Seen': 564, 'Unet 0 EMA Decay': 0.9158971404784699, 'Unet 0 Training Loss': 0.14900830388069153}
+{'Epoch': 0, 'Sample': 604, 'Step': 150, 'Samples per second': 22.080891594839215, 'Samples Seen': 604, 'Unet 0 EMA Decay': 0.9272856907987022, 'Unet 0 Training Loss': 0.09458666294813156}
+{'Epoch': 0, 'Sample': 644, 'Step': 160, 'Samples per second': 21.84428093959015, 'Samples Seen': 644, 'Unet 0 EMA Decay': 0.935467259293407, 'Unet 0 Training Loss': 0.07414772361516953}
+{'Epoch': 0, 'Sample': 684, 'Step': 170, 'Samples per second': 22.079583918973693, 'Samples Seen': 684, 'Unet 0 EMA Decay': 0.9416786232475655, 'Unet 0 Training Loss': 0.12012259662151337}
+{'Epoch': 0, 'Sample': 724, 'Step': 180, 'Samples per second': 22.102272248218878, 'Samples Seen': 724, 'Unet 0 EMA Decay': 0.9465833492478738, 'Unet 0 Training Loss': 0.10737068951129913}
+{'Epoch': 0, 'Sample': 764, 'Step': 190, 'Samples per second': 22.106320320766127, 'Samples Seen': 764, 'Unet 0 EMA Decay': 0.9505720720299405, 'Unet 0 Training Loss': 0.09919925779104233}
+{'Epoch': 0, 'Sample': 804, 'Step': 200, 'Samples per second': 22.102359601037588, 'Samples Seen': 804, 'Unet 0 EMA Decay': 0.9538909949722393, 'Unet 0 Training Loss': 0.08506038784980774}
+{'Epoch': 0, 'Sample': 844, 'Step': 210, 'Samples per second': 22.182871135533652, 'Samples Seen': 844, 'Unet 0 EMA Decay': 0.9567036438404924, 'Unet 0 Training Loss': 0.10352730751037598}
+{'Epoch': 0, 'Sample': 884, 'Step': 220, 'Samples per second': 22.129530678492145, 'Samples Seen': 884, 'Unet 0 EMA Decay': 0.9591232442706719, 'Unet 0 Training Loss': 0.08634241670370102}
+{'Epoch': 0, 'Sample': 924, 'Step': 230, 'Samples per second': 22.10136964285479, 'Samples Seen': 924, 'Unet 0 EMA Decay': 0.9612308925333382, 'Unet 0 Training Loss': 0.08556060492992401}
+{'Epoch': 0, 'Sample': 964, 'Step': 240, 'Samples per second': 21.99258053268105, 'Samples Seen': 964, 'Unet 0 EMA Decay': 0.9630863272099702, 'Unet 0 Training Loss': 0.08393117040395737}
+{'Epoch': 0, 'Sample': 1004, 'Step': 250, 'Samples per second': 22.102912851590805, 'Samples Seen': 1004, 'Unet 0 EMA Decay': 0.9647346091283776, 'Unet 0 Training Loss': 0.06638073176145554}
+{'Epoch': 0, 'Sample': 1044, 'Step': 260, 'Samples per second': 22.018615248124565, 'Samples Seen': 1044, 'Unet 0 EMA Decay': 0.9662104234446286, 'Unet 0 Training Loss': 0.04502662271261215}
+{'Epoch': 0, 'Sample': 1084, 'Step': 270, 'Samples per second': 22.127721086416628, 'Samples Seen': 1084, 'Unet 0 EMA Decay': 0.967540940918646, 'Unet 0 Training Loss': 0.0891612246632576}
+{'Epoch': 0, 'Sample': 1124, 'Step': 280, 'Samples per second': 22.061205677955517, 'Samples Seen': 1124, 'Unet 0 EMA Decay': 0.9687477744429673, 'Unet 0 Training Loss': 0.0663880705833435}
+{'Epoch': 0, 'Sample': 1164, 'Step': 290, 'Samples per second': 22.152029333203057, 'Samples Seen': 1164, 'Unet 0 EMA Decay': 0.9698483496309298, 'Unet 0 Training Loss': 0.08482297509908676}
+{'Epoch': 0, 'Sample': 1204, 'Step': 300, 'Samples per second': 22.052680213307674, 'Samples Seen': 1204, 'Unet 0 EMA Decay': 0.970856885558952, 'Unet 0 Training Loss': 0.0443766713142395}
+{'Epoch': 0, 'Sample': 1244, 'Step': 310, 'Samples per second': 22.045175142371342, 'Samples Seen': 1244, 'Unet 0 EMA Decay': 0.9717851098903363, 'Unet 0 Training Loss': 0.07143089920282364}
+{'Epoch': 0, 'Sample': 1284, 'Step': 320, 'Samples per second': 22.02659384518433, 'Samples Seen': 1284, 'Unet 0 EMA Decay': 0.9726427891583144, 'Unet 0 Training Loss': 0.0612637884914875}
+{'Epoch': 0, 'Sample': 1324, 'Step': 330, 'Samples per second': 22.063671751709627, 'Samples Seen': 1324, 'Unet 0 EMA Decay': 0.9734381279668314, 'Unet 0 Training Loss': 0.03470970690250397}
+{'Epoch': 0, 'Sample': 1364, 'Step': 340, 'Samples per second': 22.094005973482794, 'Samples Seen': 1364, 'Unet 0 EMA Decay': 0.9741780736381491, 'Unet 0 Training Loss': 0.0728292167186737}
+{'Epoch': 0, 'Sample': 1404, 'Step': 350, 'Samples per second': 22.105941661198557, 'Samples Seen': 1404, 'Unet 0 EMA Decay': 0.9748685515989511, 'Unet 0 Training Loss': 0.044266004115343094}
+{'Epoch': 0, 'Sample': 1444, 'Step': 360, 'Samples per second': 21.90417227526546, 'Samples Seen': 1444, 'Unet 0 EMA Decay': 0.9755146493164777, 'Unet 0 Training Loss': 0.055923499166965485}
+{'Epoch': 0, 'Sample': 1484, 'Step': 370, 'Samples per second': 22.082896998702186, 'Samples Seen': 1484, 'Unet 0 EMA Decay': 0.9761207615241315, 'Unet 0 Training Loss': 0.047238923609256744}
+{'Epoch': 0, 'Sample': 1524, 'Step': 380, 'Samples per second': 22.10798075047834, 'Samples Seen': 1524, 'Unet 0 EMA Decay': 0.9766907059782228, 'Unet 0 Training Loss': 0.07561179995536804}
+{'Epoch': 0, 'Sample': 1564, 'Step': 390, 'Samples per second': 22.01266397432567, 'Samples Seen': 1564, 'Unet 0 EMA Decay': 0.9772278165378808, 'Unet 0 Training Loss': 0.06476595997810364}
+{'Epoch': 0, 'Sample': 1604, 'Step': 400, 'Samples per second': 22.122119065231523, 'Samples Seen': 1604, 'Unet 0 EMA Decay': 0.9777350186200064, 'Unet 0 Training Loss': 0.04632963240146637}
+{'Epoch': 0, 'Sample': 1644, 'Step': 410, 'Samples per second': 21.94919187928296, 'Samples Seen': 1644, 'Unet 0 EMA Decay': 0.9782148908287032, 'Unet 0 Training Loss': 0.03986406326293945}
+{'Epoch': 0, 'Sample': 1684, 'Step': 420, 'Samples per second': 22.093773210212756, 'Samples Seen': 1684, 'Unet 0 EMA Decay': 0.9786697156461924, 'Unet 0 Training Loss': 0.05510188266634941}
+{'Epoch': 0, 'Sample': 1724, 'Step': 430, 'Samples per second': 21.98036374498547, 'Samples Seen': 1724, 'Unet 0 EMA Decay': 0.9791015213999721, 'Unet 0 Training Loss': 0.08664079755544662}
+{'Epoch': 0, 'Sample': 1764, 'Step': 440, 'Samples per second': 22.100612675842974, 'Samples Seen': 1764, 'Unet 0 EMA Decay': 0.9795121172204747, 'Unet 0 Training Loss': 0.06344754993915558}
+{'Epoch': 0, 'Sample': 1804, 'Step': 450, 'Samples per second': 22.070811967048783, 'Samples Seen': 1804, 'Unet 0 EMA Decay': 0.979903122327173, 'Unet 0 Training Loss': 0.055156052112579346}
+{'Epoch': 0, 'Sample': 1844, 'Step': 460, 'Samples per second': 22.01315497707129, 'Samples Seen': 1844, 'Unet 0 EMA Decay': 0.9802759906955624, 'Unet 0 Training Loss': 0.03410770744085312}
+{'Epoch': 0, 'Sample': 1884, 'Step': 470, 'Samples per second': 22.03579374857164, 'Samples Seen': 1884, 'Unet 0 EMA Decay': 0.9806320319389402, 'Unet 0 Training Loss': 0.09107975661754608}
+{'Epoch': 0, 'Sample': 1924, 'Step': 480, 'Samples per second': 21.968304349477087, 'Samples Seen': 1924, 'Unet 0 EMA Decay': 0.980972429070328, 'Unet 0 Training Loss': 0.038716211915016174}
+{'Epoch': 0, 'Sample': 1964, 'Step': 490, 'Samples per second': 21.977455615333326, 'Samples Seen': 1964, 'Unet 0 EMA Decay': 0.981298253678841, 'Unet 0 Training Loss': 0.06441289931535721}
+{'Epoch': 0, 'Sample': 2004, 'Step': 500, 'Samples per second': 21.8959677587755, 'Samples Seen': 2004, 'Unet 0 EMA Decay': 0.9816104789522124, 'Unet 0 Training Loss': 0.036038100719451904}
+{'Epoch': 0, 'Sample': 2044, 'Step': 510, 'Samples per second': 21.94310587016629, 'Samples Seen': 2044, 'Unet 0 EMA Decay': 0.9819099908963117, 'Unet 0 Training Loss': 0.052738070487976074}
+{'Epoch': 0, 'Sample': 2084, 'Step': 520, 'Samples per second': 21.917277939695275, 'Samples Seen': 2084, 'Unet 0 EMA Decay': 0.9821975980383395, 'Unet 0 Training Loss': 0.0943349227309227}
+{'Epoch': 0, 'Sample': 2124, 'Step': 530, 'Samples per second': 22.010815689834775, 'Samples Seen': 2124, 'Unet 0 EMA Decay': 0.9824740398491835, 'Unet 0 Training Loss': 0.055646687746047974}
+{'Epoch': 0, 'Sample': 2164, 'Step': 540, 'Samples per second': 21.936965867843806, 'Samples Seen': 2164, 'Unet 0 EMA Decay': 0.9827399940793191, 'Unet 0 Training Loss': 0.06905410438776016}
+{'Epoch': 0, 'Sample': 2204, 'Step': 550, 'Samples per second': 22.022835090114334, 'Samples Seen': 2204, 'Unet 0 EMA Decay': 0.98299608316947, 'Unet 0 Training Loss': 0.07010821998119354}
+{'Epoch': 0, 'Sample': 2244, 'Step': 560, 'Samples per second': 22.00778402032713, 'Samples Seen': 2244, 'Unet 0 EMA Decay': 0.9832428798703269, 'Unet 0 Training Loss': 0.059186648577451706}
+{'Epoch': 0, 'Sample': 2284, 'Step': 570, 'Samples per second': 22.034520347882733, 'Samples Seen': 2284, 'Unet 0 EMA Decay': 0.9834809121836913, 'Unet 0 Training Loss': 0.05745190382003784}
+{'Epoch': 0, 'Sample': 2324, 'Step': 580, 'Samples per second': 22.029514994504837, 'Samples Seen': 2324, 'Unet 0 EMA Decay': 0.9837106677194257, 'Unet 0 Training Loss': 0.06183425337076187}
+{'Epoch': 0, 'Sample': 2364, 'Step': 590, 'Samples per second': 21.989035113587363, 'Samples Seen': 2364, 'Unet 0 EMA Decay': 0.983932597547813, 'Unet 0 Training Loss': 0.044074200093746185}
+{'Epoch': 0, 'Sample': 2404, 'Step': 600, 'Samples per second': 22.0397306450384, 'Samples Seen': 2404, 'Unet 0 EMA Decay': 0.984147119614696, 'Unet 0 Training Loss': 0.052750516682863235}
+{'Epoch': 0, 'Sample': 2444, 'Step': 610, 'Samples per second': 21.895767725398738, 'Samples Seen': 2444, 'Unet 0 EMA Decay': 0.9843546217766329, 'Unet 0 Training Loss': 0.07899288833141327}
+{'Epoch': 0, 'Sample': 2484, 'Step': 620, 'Samples per second': 22.039556928768103, 'Samples Seen': 2484, 'Unet 0 EMA Decay': 0.9845554645048494, 'Unet 0 Training Loss': 0.03843798488378525}
+{'Epoch': 0, 'Sample': 2524, 'Step': 630, 'Samples per second': 21.826888475754213, 'Samples Seen': 2524, 'Unet 0 EMA Decay': 0.9847499832997043, 'Unet 0 Training Loss': 0.0580117404460907}
+{'Epoch': 0, 'Sample': 2564, 'Step': 640, 'Samples per second': 21.99488711001104, 'Samples Seen': 2564, 'Unet 0 EMA Decay': 0.984938490851456, 'Unet 0 Training Loss': 0.0637269988656044}
+{'Epoch': 0, 'Sample': 2604, 'Step': 650, 'Samples per second': 21.90975028142638, 'Samples Seen': 2604, 'Unet 0 EMA Decay': 0.9851212789781193, 'Unet 0 Training Loss': 0.054267965257167816}
+{'Epoch': 0, 'Sample': 2644, 'Step': 660, 'Samples per second': 22.01910651640092, 'Samples Seen': 2644, 'Unet 0 EMA Decay': 0.9852986203669829, 'Unet 0 Training Loss': 0.07032203674316406}
+{'Epoch': 0, 'Sample': 2684, 'Step': 670, 'Samples per second': 21.997886383959596, 'Samples Seen': 2684, 'Unet 0 EMA Decay': 0.9854707701427824, 'Unet 0 Training Loss': 0.05343442037701607}
+{'Epoch': 0, 'Sample': 2724, 'Step': 680, 'Samples per second': 22.03200292057839, 'Samples Seen': 2724, 'Unet 0 EMA Decay': 0.9856379672824735, 'Unet 0 Training Loss': 0.04956306889653206}
+{'Epoch': 0, 'Sample': 2764, 'Step': 690, 'Samples per second': 22.037617283091137, 'Samples Seen': 2764, 'Unet 0 EMA Decay': 0.9858004358939634, 'Unet 0 Training Loss': 0.05960866063833237}
+{'Epoch': 0, 'Sample': 2804, 'Step': 700, 'Samples per second': 21.922633452329308, 'Samples Seen': 2804, 'Unet 0 EMA Decay': 0.9859583863739311, 'Unet 0 Training Loss': 0.06265867501497269}
+{'Epoch': 0, 'Sample': 2844, 'Step': 710, 'Samples per second': 21.984108015179153, 'Samples Seen': 2844, 'Unet 0 EMA Decay': 0.9861120164579682, 'Unet 0 Training Loss': 0.06051386147737503}
+{'Epoch': 0, 'Sample': 2884, 'Step': 720, 'Samples per second': 21.91032254525794, 'Samples Seen': 2884, 'Unet 0 EMA Decay': 0.9862615121746301, 'Unet 0 Training Loss': 0.07428809255361557}
+{'Epoch': 0, 'Sample': 2924, 'Step': 730, 'Samples per second': 22.00160777396744, 'Samples Seen': 2924, 'Unet 0 EMA Decay': 0.9864070487135789, 'Unet 0 Training Loss': 0.050162751227617264}
+{'Epoch': 0, 'Sample': 2964, 'Step': 740, 'Samples per second': 21.912526040136093, 'Samples Seen': 2964, 'Unet 0 EMA Decay': 0.9865487912167743, 'Unet 0 Training Loss': 0.034549593925476074}
+{'Epoch': 0, 'Sample': 3004, 'Step': 750, 'Samples per second': 21.971325150996076, 'Samples Seen': 3004, 'Unet 0 EMA Decay': 0.9866868955006167, 'Unet 0 Training Loss': 0.053196512162685394}
+{'Epoch': 0, 'Sample': 3044, 'Step': 760, 'Samples per second': 21.984108015179153, 'Samples Seen': 3044, 'Unet 0 EMA Decay': 0.9868215087160209, 'Unet 0 Training Loss': 0.043565783649683}
+{'Epoch': 0, 'Sample': 3084, 'Step': 770, 'Samples per second': 21.89465332063111, 'Samples Seen': 3084, 'Unet 0 EMA Decay': 0.986952769952606, 'Unet 0 Training Loss': 0.05594736337661743}
+{'Epoch': 0, 'Sample': 3124, 'Step': 780, 'Samples per second': 22.022835090114334, 'Samples Seen': 3124, 'Unet 0 EMA Decay': 0.9870808107924832, 'Unet 0 Training Loss': 0.047327786684036255}
+{'Epoch': 0, 'Sample': 3164, 'Step': 790, 'Samples per second': 21.94827302007593, 'Samples Seen': 3164, 'Unet 0 EMA Decay': 0.9872057558185197, 'Unet 0 Training Loss': 0.04268810898065567}
+{'Epoch': 0, 'Sample': 3204, 'Step': 800, 'Samples per second': 21.983906368135603, 'Samples Seen': 3204, 'Unet 0 EMA Decay': 0.9873277230814141, 'Unet 0 Training Loss': 0.05051373317837715}
+{'Epoch': 0, 'Sample': 3244, 'Step': 810, 'Samples per second': 21.878892363547212, 'Samples Seen': 3244, 'Unet 0 EMA Decay': 0.9874468245294594, 'Unet 0 Training Loss': 0.031858883798122406}
+{'Epoch': 0, 'Sample': 3284, 'Step': 820, 'Samples per second': 21.984396088801297, 'Samples Seen': 3284, 'Unet 0 EMA Decay': 0.9875631664044473, 'Unet 0 Training Loss': 0.04999048262834549}
+{'Epoch': 0, 'Sample': 3324, 'Step': 830, 'Samples per second': 21.999069014847247, 'Samples Seen': 3324, 'Unet 0 EMA Decay': 0.9876768496068123, 'Unet 0 Training Loss': 0.044945307075977325}
+{'Epoch': 0, 'Sample': 3364, 'Step': 840, 'Samples per second': 21.94700971427525, 'Samples Seen': 3364, 'Unet 0 EMA Decay': 0.9877879700327885, 'Unet 0 Training Loss': 0.06974766403436661}
+{'Epoch': 0, 'Sample': 3404, 'Step': 850, 'Samples per second': 21.987536580986667, 'Samples Seen': 3404, 'Unet 0 EMA Decay': 0.987896618886067, 'Unet 0 Training Loss': 0.045671187341213226}
+{'Epoch': 0, 'Sample': 3444, 'Step': 860, 'Samples per second': 21.918681002835008, 'Samples Seen': 3444, 'Unet 0 EMA Decay': 0.9880028829661961, 'Unet 0 Training Loss': 0.04413384199142456}

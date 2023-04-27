@@ -278,7 +278,7 @@ def train(
     n_sample_images = 5,
     save_every_n_samples = 100000,
     unet_training_mask=None,
-    condition_on_text_encodings=False,
+    condition_on_text_encodings=True,
     cond_scale=1.0,
     **kwargs
 ):

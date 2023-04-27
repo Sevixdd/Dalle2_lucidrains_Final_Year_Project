@@ -90,14 +90,14 @@ for epoch in range(epochs):
             img_embed, img_encoding = clip.embed_image(img)
             forward_params['image_embed'] = img_embed
 
-        forward_params['text_encodings'] = text_emb
+        #forward_params['text_encodings'] = text_emb
             # Then we need to pass the text instead
-        # assert clip is not None
-        # tokenized_texts = tokenize(txt, truncate=True).to(device=device)
-        # assert tokenized_texts.shape[0] == len(
-        #     img), f"The number of texts ({tokenized_texts.shape[0]}) should be the same as the number of images ({len(img)})"
-        # text_embed, text_encodings = clip.embed_text(tokenized_texts)
-        # forward_params['text_encodings'] = text_encodings
+        assert clip is not None
+        tokenized_texts = tokenize(txt, truncate=True).to(device=device)
+        assert tokenized_texts.shape[0] == len(
+            img), f"The number of texts ({tokenized_texts.shape[0]}) should be the same as the number of images ({len(img)})"
+        text_embed, text_encodings = clip.embed_text(tokenized_texts)
+        forward_params['text_encodings'] = text_encodings
         loss = trainer.forward(img, **forward_params, unet_number=1, _device=device)
         print("Loss=%f" % (loss))
         trainer.update()  # update the specific unet as well as its exponential moving average

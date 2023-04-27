@@ -8,7 +8,7 @@ from decoder import decoder_params1,decoder_params
 #from prior import diffusion_prior
 from clip import tokenize
 #
-device = torch.device('cuda')
+#device = torch.device('cuda')
 configPrior = TrainDiffusionPriorConfig.from_json_path("train_prior_config.json")
 Prior = make_model(configPrior.prior, configPrior.train)
 Prior.load("last_check.pth")
@@ -32,12 +32,15 @@ Prior.load("last_check.pth")
 # # load model
 # prior = make_prior(prior_config=prior_config, checkpoint_path="best_checkpoint.pth", device="cuda")
 # Prior.load("latest_checkpoint.pth")
-Decoder = decoder_params1
-Decoder.load("Big_decoder.pth")
+# Decoder = decoder_params1
+# Decoder.load("Big_decoder.pth")
 
-# configDecoder = TrainDecoderConfig.from_json_path("train_decoder_config.json")
-# Decoder = configDecoder.decoder.create().cuda()
-# Decoder.load_state_dict(torch.load("best_decoder.pth", map_location='cpu'),strict=False)
+configDecoder = TrainDecoderConfig.from_json_path("train_decoder_config.json")
+Decoder = configDecoder.decoder.create().cuda()
+decoder_model_state = torch.load("best_decoder.pth", map_location="cpu")["model"]
+for k in Decoder.clip.state_dict().keys():
+    decoder_model_state["clip." + k] = Decoder.clip.state_dict()[k]
+Decoder.load_state_dict(decoder_model_state,strict=True)
 
 #trainer.load("latest.pth")
 #print(isinstance(Prior, DiffusionPriorTrainer))
@@ -53,12 +56,12 @@ Decoder.load("Big_decoder.pth")
 
 dalle2 = DALLE2(
     prior = Prior.diffusion_prior,
-    decoder = Decoder.decoder,
-    prior_num_samples = 2,
+    decoder = Decoder,
+    prior_num_samples = 1,
 )
 
 images = dalle2(
-    ['bucket'],
+    ['flower'],
     cond_scale = 1. # classifier free guidance strength (> 1 would strengthen the condition)
 ).cpu()
 print(images[0].shape)
