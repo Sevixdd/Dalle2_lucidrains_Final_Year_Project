@@ -1,1 +1,0 @@
-{"tracking/epoch": 0, "_timestamp": 1681513719, "_runtime": 1605, "tracking/samples-sec": 141.14498901367188, "tracking/samples-seen": 223392, "tracking/ema-decay": 0.9972358244059556, "tracking/training-l2": 0.2207755744457245, "_step": 6980, "_wandb": {"runtime": 1605}}

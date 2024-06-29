@@ -1,1 +1,0 @@
-{"columns": ["status", "frequency", "count"], "data": [["<urlopen error [Errno 11001] getaddrinfo failed>", 0.9696, 9696], ["success", 0.0217, 217], ["timed out", 0.0087, 87]]}

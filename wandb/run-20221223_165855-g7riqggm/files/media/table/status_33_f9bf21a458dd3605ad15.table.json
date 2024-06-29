@@ -1,1 +1,0 @@
-{"columns": ["status", "frequency", "count"], "data": [["<urlopen error [Errno 11001] getaddrinfo failed>", 0.96208125, 153933], ["success", 0.0274, 4384], ["timed out", 0.01044375, 1671], ["[WinError 10054] An existing connection was forcibly closed by the remote host", 6.25e-05, 10], ["<urlopen error timed out>", 1.25e-05, 2]]}
